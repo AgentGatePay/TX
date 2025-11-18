@@ -141,7 +141,7 @@ const TOKENS = {
 // RPC endpoints
 const RPCS = {
     base: process.env.BASE_RPC || 'https://mainnet.base.org',
-    ethereum: process.env.ETHEREUM_RPC || 'https://cloudflare-eth.com',
+    ethereum: process.env.ETHEREUM_RPC || 'https://eth.llamarpc.com',
     polygon: process.env.POLYGON_RPC || 'https://polygon-rpc.com',
     arbitrum: process.env.ARBITRUM_RPC || 'https://arb1.arbitrum.io/rpc'
 };
