@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  tx-signing-service:
+    image: agentgatepay/tx-signing-service:latest
+    container_name: agentgatepay-tx-signer
+    ports:
+      - "3000:3000"
+    environment:
+      - WALLET_PRIVATE_KEY=${WALLET_PRIVATE_KEY}
+      - AGENTPAY_API_KEY=${AGENTPAY_API_KEY}
+      - PORT=3000
+      # Optional: Custom RPC endpoints
+      - BASE_RPC=${BASE_RPC:-https://mainnet.base.org}
+      - ETHEREUM_RPC=${ETHEREUM_RPC:-https://cloudflare-eth.com}
+      - POLYGON_RPC=${POLYGON_RPC:-https://polygon-rpc.com}
+      - ARBITRUM_RPC=${ARBITRUM_RPC:-https://arb1.arbitrum.io/rpc}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+    networks:
+      - agentpay-network
+
+networks:
+  agentpay-network:
+    driver: bridge
