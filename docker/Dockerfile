@@ -15,7 +15,7 @@ WORKDIR /app
 COPY tx-signing-service/package*.json ./
 
 # Install production dependencies only
-RUN npm ci --only=production --ignore-scripts
+RUN npm install --only=production --ignore-scripts
 
 # Stage 2: Production image
 FROM node:18-alpine
