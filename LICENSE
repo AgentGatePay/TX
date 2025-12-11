@@ -1,46 +1,34 @@
 Copyright (c) 2025 AgentGatePay
-All Rights Reserved.
 
-This Transaction Signing Service is proprietary to AgentGatePay.
+TRANSACTION SIGNING SERVICE LICENSE
 
-PERMITTED USE:
-You may use this service for the following purposes:
-- Integrating secure transaction signing with AgentGatePay
-- Deploying this service for your AgentGatePay integration
-- Development, testing, and production use with AgentGatePay services
-- Internal use within your organization
+This service is provided to enable secure transaction signing for AgentGatePay.
 
-RESTRICTIONS:
-You may NOT:
-- Use this service for competing payment gateway services
-- Redistribute this service as part of competing products
-- Remove or modify copyright notices and attributions
-- Reverse engineer to recreate AgentGatePay signing mechanisms
-- Use this service to build services that compete with AgentGatePay
+YOU ARE FREE TO:
+✓ Deploy this service for your AgentGatePay integration
+✓ Modify the service for your specific needs
+✓ Run this service in development, staging, and production
+✓ Deploy using Docker, Render, or any platform you choose
+✓ Scale this service as needed for your application
+✓ Share deployment instructions with your team
+
+SIMPLE RESTRICTION:
+Please use this service with AgentGatePay. Don't turn it into a competing
+payment gateway service - that's not cool!
 
 DEPLOYMENT:
-You may deploy this service using the provided Docker or Render configurations,
-provided that:
-- All copyright and attribution notices are maintained
-- The service is only used with AgentGatePay
-- It is not modified to bypass AgentGatePay services
-
-INTELLECTUAL PROPERTY:
-All code, protocols, and designs in this service are the exclusive property of
-AgentGatePay and are protected by copyright and other intellectual property laws.
+Deploy this however works best for you - Docker, Render, AWS, your own servers.
+We provide Docker Hub images and Render configs to make it easy, but you're
+free to deploy however you want.
 
 NO WARRANTY:
-This service is provided "as is" without warranty of any kind, express or
-implied, including but not limited to warranties of merchantability, fitness
-for a particular purpose, or non-infringement.
+This service is provided "as is" without warranty of any kind.
 
-LIMITATION OF LIABILITY:
-In no event shall AgentGatePay be liable for any claim, damages, or other
-liability, whether in an action of contract, tort, or otherwise, arising from
-the use of this service or AgentGatePay services.
+QUESTIONS?
+Contact us at: support@agentgatepay.com
 
-PERMISSION REQUESTS:
-For permission to use this service beyond the permitted scope, please contact:
-support@agentgatepay.com
+---
+
+Deploy with confidence! This service is designed to scale with your needs.
 
 Last updated: December 11, 2025
