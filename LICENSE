@@ -1,37 +1,41 @@
 Copyright (c) 2025 AgentGatePay. All rights reserved.
 
-TRANSACTION SIGNING SERVICE LICENSE
+END USER LICENSE AGREEMENT
 
-This service is provided to enable secure transaction signing for AgentGatePay
-integrations.
+This Transaction Signing Service is the proprietary property of AgentGatePay.
 
-PERMITTED USE:
-You may freely use this service to:
-- Deploy for your AgentGatePay integrations (commercial or non-commercial)
-- Modify the service to fit your infrastructure needs
-- Run in production environments with your applications
-- Deploy on any platform (Docker, Render, AWS, GCP, Azure, etc.)
-- Scale to meet your application requirements
+PERMITTED USE
 
-RESTRICTIONS:
-This license does NOT grant rights to:
-- The AgentGatePay service, infrastructure, or backend systems
-- Recreate or duplicate the AgentGatePay platform
-- Create competing payment gateway services
+You may use this service to:
+- Deploy for your AgentGatePay integrations
+- Run in your infrastructure for applications using AgentGatePay services
+- Include as part of your AgentGatePay integration architecture
 
-OWNERSHIP:
-AgentGatePay services, APIs, protocols, and infrastructure remain the
-exclusive proprietary property of AgentGatePay.
+RESTRICTIONS
 
-NO WARRANTY:
-This service is provided "AS IS" without warranty of any kind.
+You may not:
+- Copy, modify, or redistribute this service code
+- Reverse engineer or decompile this service
+- Remove copyright or proprietary notices
+- Use this service for illegal or fraudulent purposes
+- Use this service for non-AgentGatePay payment processing
+- Build competing payment gateway services using this code
 
----
+USAGE TERMS
 
-DEPLOYMENT WELCOMED
+This service is designed for use with AgentGatePay services which operate
+under AgentGatePay's terms of service, including applicable transaction
+fees and commissions.
 
-You are explicitly encouraged to deploy this service for your commercial
-applications and production systems. Modify as needed. Scale as needed.
-No approval required.
+OWNERSHIP
 
-Questions? support@agentgatepay.com
+This service, and all AgentGatePay services, APIs, and infrastructure, are
+the exclusive proprietary property of AgentGatePay.
+
+NO WARRANTY
+
+This service is provided "AS IS" without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability, fitness
+for a particular purpose, or non-infringement.
+
+For support: support@agentgatepay.com
