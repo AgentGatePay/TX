@@ -1,0 +1,46 @@
+Copyright (c) 2025 AgentGatePay
+All Rights Reserved.
+
+This Transaction Signing Service is proprietary to AgentGatePay.
+
+PERMITTED USE:
+You may use this service for the following purposes:
+- Integrating secure transaction signing with AgentGatePay
+- Deploying this service for your AgentGatePay integration
+- Development, testing, and production use with AgentGatePay services
+- Internal use within your organization
+
+RESTRICTIONS:
+You may NOT:
+- Use this service for competing payment gateway services
+- Redistribute this service as part of competing products
+- Remove or modify copyright notices and attributions
+- Reverse engineer to recreate AgentGatePay signing mechanisms
+- Use this service to build services that compete with AgentGatePay
+
+DEPLOYMENT:
+You may deploy this service using the provided Docker or Render configurations,
+provided that:
+- All copyright and attribution notices are maintained
+- The service is only used with AgentGatePay
+- It is not modified to bypass AgentGatePay services
+
+INTELLECTUAL PROPERTY:
+All code, protocols, and designs in this service are the exclusive property of
+AgentGatePay and are protected by copyright and other intellectual property laws.
+
+NO WARRANTY:
+This service is provided "as is" without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability, fitness
+for a particular purpose, or non-infringement.
+
+LIMITATION OF LIABILITY:
+In no event shall AgentGatePay be liable for any claim, damages, or other
+liability, whether in an action of contract, tort, or otherwise, arising from
+the use of this service or AgentGatePay services.
+
+PERMISSION REQUESTS:
+For permission to use this service beyond the permitted scope, please contact:
+support@agentgatepay.com
+
+Last updated: December 11, 2025
