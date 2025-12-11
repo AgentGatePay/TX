@@ -1,34 +1,26 @@
 Copyright (c) 2025 AgentGatePay
 
-TRANSACTION SIGNING SERVICE LICENSE
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, and deploy the Software,
+and to permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
 
-This service is provided to enable secure transaction signing for AgentGatePay.
+1. The Software is intended for use with AgentGatePay services.
 
-YOU ARE FREE TO:
-✓ Deploy this service for your AgentGatePay integration
-✓ Modify the service for your specific needs
-✓ Run this service in development, staging, and production
-✓ Deploy using Docker, Render, or any platform you choose
-✓ Scale this service as needed for your application
-✓ Share deployment instructions with your team
+2. The Software may not be used for illegal purposes or in violation of any
+   applicable laws and regulations.
 
-SIMPLE RESTRICTION:
-Please use this service with AgentGatePay. Don't turn it into a competing
-payment gateway service - that's not cool!
+3. The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
 
-DEPLOYMENT:
-Deploy this however works best for you - Docker, Render, AWS, your own servers.
-We provide Docker Hub images and Render configs to make it easy, but you're
-free to deploy however you want.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
-NO WARRANTY:
-This service is provided "as is" without warranty of any kind.
-
-QUESTIONS?
-Contact us at: support@agentgatepay.com
-
----
-
-Deploy with confidence! This service is designed to scale with your needs.
-
-Last updated: December 11, 2025
+For questions regarding usage rights: support@agentgatepay.com
