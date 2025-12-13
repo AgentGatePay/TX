@@ -4,6 +4,12 @@ END USER LICENSE AGREEMENT
 
 This Transaction Signing Service is the proprietary property of AgentGatePay.
 
+BETA STATUS NOTICE
+
+AgentGatePay is currently in BETA. The service may be unavailable, suspended,
+or permanently shut down at any time without prior notice. All data may be
+lost without recovery. Use at your own risk.
+
 PERMITTED USE
 
 You may use this service to:
@@ -38,4 +44,20 @@ This service is provided "AS IS" without warranty of any kind, express or
 implied, including but not limited to warranties of merchantability, fitness
 for a particular purpose, or non-infringement.
 
+LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, AgentGatePay and its operators shall
+NOT BE LIABLE for any direct, indirect, incidental, special, consequential,
+or punitive damages, including but not limited to:
+- Lost cryptocurrency or digital assets
+- Failed transactions or payment processing errors
+- Loss of revenue, profits, or business opportunities
+- Service interruptions, downtime, or data loss
+- Damages arising from use or inability to use the service
+
+Users are solely responsible for the security of their private keys, API keys,
+compliance with applicable laws, and maintaining independent backups of all
+transaction records.
+
+For full disclaimer, see DISCLAIMER.md in the repository root.
 For support: support@agentgatepay.com

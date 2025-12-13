@@ -9,6 +9,22 @@ Production-ready deployment for autonomous AI agent payments. Enables agents to 
 
 ---
 
+## ⚠️ IMPORTANT DISCLAIMER
+
+**AgentGatePay is currently in BETA.** By using this transaction signing service and AgentGatePay, you acknowledge and accept:
+
+- **Service Availability:** The service may be unavailable, suspended, or permanently shut down at any time without prior notice. No SLA or uptime guarantees.
+- **Data Loss Risk:** All data may be lost at any time without recovery. Users are solely responsible for maintaining independent backups of transaction records.
+- **No Liability:** AgentGatePay is NOT LIABLE for any direct, indirect, or consequential damages including lost cryptocurrency, failed transactions, service interruptions, or loss of revenue.
+- **Financial Risk:** Blockchain transactions are irreversible. Users are solely responsible for securing private keys, API keys, wallet management, and compliance with applicable laws.
+- **No Warranty:** This service is provided "AS IS" without warranties of any kind.
+
+**📄 Read the full [DISCLAIMER.md](DISCLAIMER.md) before deploying this service.**
+
+**BY USING THIS SERVICE, YOU AGREE TO THESE TERMS.**
+
+---
+
 ## What is This?
 
 The **TX Signing Service** is an external transaction signing server that handles blockchain payments on behalf of AI agents. Instead of embedding wallet private keys in client applications, agents make API calls to this service which signs and submits transactions securely.
